@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPALSUR - Más de tres décadas de experiencia en palets de madera</title>
+    <meta name="description"
+        content="Repalsur: compra-venta de palets usados, fabricación de palets nuevos y servicio de reparación. Más de 30 años de experiencia en El Viso del Alcor, Sevilla.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- ===== TOP BAR ===== -->
+    <div class="top-bar">
+        <div class="container">
+            <a href="https://www.instagram.com/repalsur?igsh=aXprcXZhcXl5dDM0&utm_source=qr" target="_blank"
+                rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61586434562846" target="_blank" rel="noopener"
+                aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="https://repalsur.com/wp-content/uploads/2024/12/Recurso-2.png" alt="Repalsur"
+                    class="logo-img">
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="active" data-i18n="nav.inicio">Inicio</a>
+                <a href="servicios.html" data-i18n="nav.servicios">Servicios</a>
+                <a href="productos.html" data-i18n="nav.productos">Productos</a>
+                <a href="nosotros.html" data-i18n="nav.nosotros">Nosotros</a>
+                <a href="contacto.html" data-i18n="nav.contacto">Contacto</a>
+                <a href="noticias.html" data-i18n="nav.noticias">Noticias</a>
+                <div class="lang-switch">
+                    <a href="#" data-lang="es" class="active" onclick="event.preventDefault(); switchLang('es')">ES</a>
+                    <a href="#" data-lang="en" onclick="event.preventDefault(); switchLang('en')">EN</a>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-i18n="index.hero.title">REPAL<span>SUR</span>: Más de tres décadas de experiencia, dedicados a la
+                <span>excelencia</span> en
+                palets de madera</h1>
+            <p data-i18n="index.hero.subtitle">Compra-venta de palets usados, fabricación de palets nuevos y servicio
+                integral de reparación para
+                optimizar tu logística.</p>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="contacto.html" class="btn btn-primary" data-i18n="index.hero.btn1">Ver más</a>
+                <a href="nosotros.html" class="btn btn-outline" data-i18n="index.hero.btn2">Conócenos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NOSOTROS RESUMEN ===== -->
+    <section class="section nosotros">
+        <div class="container">
+            <div class="nosotros-grid">
+                <div class="nosotros-image fade-in">
+                    <img src="https://repalsur.com/wp-content/uploads/2024/12/Recurso-2-1.png"
+                        alt="Almacén de palets de madera Repalsur">
+                </div>
+                <div class="nosotros-text fade-in">
+                    <h2 data-i18n="index.nosotros.title">Nosotros</h2>
+                    <p data-i18n="index.nosotros.p1">En Repalsur nos dedicamos a brindar soluciones completas dentro del
+                        sector de los palets,
+                        garantizando un alto estándar de calidad, eficiencia y responsabilidad ambiental en cada uno de
+                        nuestros servicios.</p>
+                    <p data-i18n="index.nosotros.p2">Nuestra amplia experiencia nos ha posicionado como un referente en
+                        la compra-venta de palets
+                        usados, en la producción de palets nuevos y en el mantenimiento a través de un servicio integral
+                        de reparación.</p>
+                    <a href="nosotros.html" class="btn btn-green-outline" data-i18n="index.nosotros.btn">Saber más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICIOS RESUMEN ===== -->
+    <section class="section servicios">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 data-i18n="index.servicios.title">Servicios</h2>
+            </div>
+            <div class="servicios-grid">
+                <a href="servicios.html" class="servicio-card fade-in" style="text-decoration:none;">
+                    <div class="card-img">
+                        <img src="https://repalsur.com/wp-content/uploads/2024/12/1.jpg" alt="Recuperación de palets">
+                        <div class="card-img-overlay"></div>
+                    </div>
+                    <div class="card-icon"><i class="fas fa-recycle"></i></div>
+                    <div class="card-body">
+                        <h3 data-i18n="index.serv.recuperacion">Recuperación</h3>
+                        <p data-i18n="index.serv.recuperacion.desc">Recogida y recuperación de palets usados para darles
+                            una segunda vida.</p>
+                    </div>
+                </a>
+                <a href="servicios.html" class="servicio-card fade-in" style="text-decoration:none;">
+                    <div class="card-img">
+                        <img src="https://repalsur.com/wp-content/uploads/2024/12/2.jpg" alt="Compraventa de palets">
+                        <div class="card-img-overlay"></div>
+                    </div>
+                    <div class="card-icon"><i class="fas fa-handshake"></i></div>
+                    <div class="card-body">
+                        <h3 data-i18n="index.serv.compraventa">Compraventa</h3>
+                        <p data-i18n="index.serv.compraventa.desc">Compra y venta de palets usados de alta calidad,
+                            inspeccionados.</p>
+                    </div>
+                </a>
+                <a href="servicios.html" class="servicio-card fade-in" style="text-decoration:none;">
+                    <div class="card-img">
+                        <img src="https://repalsur.com/wp-content/uploads/2024/12/3.jpg" alt="Distribución de palets">
+                        <div class="card-img-overlay"></div>
+                    </div>
+                    <div class="card-icon"><i class="fas fa-truck"></i></div>
+                    <div class="card-body">
+                        <h3 data-i18n="index.serv.distribucion">Distribución</h3>
+                        <p data-i18n="index.serv.distribucion.desc">Servicio de distribución y logística de palets
+                            adaptado a cada cliente.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRODUCTOS RESUMEN ===== -->
+    <section class="section productos">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 data-i18n="index.productos.title">Productos</h2>
+            </div>
+            <div class="productos-grid">
+                <a href="productos.html" class="producto-card fade-in">
+                    <img src="https://repalsur.com/wp-content/uploads/2024/12/Recurso-6-100.jpg"
+                        alt="Palets nuevos de madera">
+                    <div class="producto-overlay">
+                        <div class="producto-info">
+                            <h3 data-i18n="index.prod.nuevos">Palets Nuevos</h3>
+                            <p data-i18n="index.prod.nuevos.desc">Fabricamos palets nuevos a medida, con materiales de
+                                primera calidad.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="productos.html" class="producto-card fade-in">
+                    <img src="https://repalsur.com/wp-content/uploads/2024/12/portadapalets-2-uso.jpg"
+                        alt="Palets de segundo uso">
+                    <div class="producto-overlay">
+                        <div class="producto-info">
+                            <h3 data-i18n="index.prod.segundo">Palets de Segundo Uso</h3>
+                            <p data-i18n="index.prod.segundo.desc">Palets usados reacondicionados y revisados,
+                                económicos y sostenibles.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRESUPUESTO ===== -->
+    <section class="presupuesto">
+        <div class="container">
+            <h2 class="fade-in" data-i18n="index.presupuesto.title">Solicítanos tu presupuesto</h2>
+            <p class="fade-in" data-i18n="index.presupuesto.desc">¿Necesitas palets para tu empresa? Cuéntanos lo que
+                necesitas y te ofreceremos la mejor
+                solución.</p>
+            <a href="contacto.html" class="btn btn-outline fade-in" data-i18n="index.presupuesto.btn">Solicitar
+                Presupuesto</a>
+        </div>
+    </section>
+
+    <!-- ===== NOTICIAS RESUMEN ===== -->
+    <section class="section noticias">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 data-i18n="index.noticias.title">Noticias</h2>
+            </div>
+            <div class="noticias-grid">
+                <article class="noticia-card fade-in">
+                    <div class="noticia-img"><img
+                            src="https://repalsur.com/wp-content/uploads/2024/12/blog1-768x512.jpg"
+                            alt="Compra-venta de palets usados"></div>
+                    <div class="noticia-body">
+                        <h3><a href="noticias.html" data-i18n="index.not1.title">Guía completa sobre la compra-venta de
+                                palets usados</a></h3>
+                        <p data-i18n="index.not1.desc">La compra-venta de palets usados es una solución eficiente y
+                            sostenible para muchas empresas.
+                        </p>
+                        <a href="noticias.html" class="read-more" data-i18n="readmore">Leer más <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="noticia-card fade-in">
+                    <div class="noticia-img"><img
+                            src="https://repalsur.com/wp-content/uploads/2024/12/blog2-768x512.jpg"
+                            alt="Fabricación de palets nuevos"></div>
+                    <div class="noticia-body">
+                        <h3><a href="noticias.html" data-i18n="index.not2.title">Fabricación de palets nuevos: calidad y
+                                adaptabilidad</a></h3>
+                        <p data-i18n="index.not2.desc">Los palets nuevos son ideales para empresas que requieren
+                            fiabilidad y personalización en su
+                            logística.</p>
+                        <a href="noticias.html" class="read-more" data-i18n="readmore">Leer más <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="noticia-card fade-in">
+                    <div class="noticia-img"><img
+                            src="https://repalsur.com/wp-content/uploads/2024/12/blog3-768x512.jpg"
+                            alt="Reparación de palets"></div>
+                    <div class="noticia-body">
+                        <h3><a href="noticias.html" data-i18n="index.not3.title">Reparación de palets: ahorro y
+                                sostenibilidad</a></h3>
+                        <p data-i18n="index.not3.desc">Reparar palets es la mejor solución para ahorrar costes y cuidar
+                            el medio ambiente.</p>
+                        <a href="noticias.html" class="read-more" data-i18n="readmore">Leer más <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="noticia-card fade-in">
+                    <div class="noticia-img"><img
+                            src="https://repalsur.com/wp-content/uploads/2024/12/blog4-768x512.jpg"
+                            alt="Palets de calidad"></div>
+                    <div class="noticia-body">
+                        <h3><a href="noticias.html" data-i18n="index.not4.title">Beneficios de usar palets de calidad en
+                                tu negocio</a></h3>
+                        <p data-i18n="index.not4.desc">Utilizar palets de calidad es clave para garantizar una logística
+                            eficiente y segura.</p>
+                        <a href="noticias.html" class="read-more" data-i18n="readmore">Leer más <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <img src="https://repalsur.com/wp-content/uploads/2024/12/Recurso-2.png" alt="Repalsur"
+                            class="footer-logo-img">
+                        <h3 data-i18n="footer.sobre">Sobre Nosotros</h3>
+                        <p data-i18n="footer.sobre.desc">Ofrecemos a nuestros clientes compra-venta de palets usados,
+                            fabricación de palets nuevos y
+                            servicio de reparación.</p>
+                        <p style="margin-top: 10px; font-weight: 500;" data-i18n="footer.encuentranos">Encuéntranos en:
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/profile.php?id=61586434562846" target="_blank"
+                                rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/repalsur?igsh=aXprcXZhcXl5dDM0&utm_source=qr"
+                                target="_blank" rel="noopener" aria-label="Instagram"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3 data-i18n="footer.donde">Donde Estamos</h3>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="https://maps.app.goo.gl/41kAxWgpmJ8QtrSq5" target="_blank" rel="noopener">Polígono
+                                Industrial Santa Isabel<br>C. Pintores, 11<br>41520 El Viso del Alcor, Sevilla</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div><a href="tel:+34674708456">674 708 456</a><br><a href="tel:+34955946460">955 946
+                                    460</a></div>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@repalsur.com">info@repalsur.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3 data-i18n="footer.contacto">Contacto</h3>
+                        <form class="footer-form"
+                            onsubmit="event.preventDefault(); alert('Mensaje enviado correctamente.');">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                                <input type="text" placeholder="Nombre *" required data-i18n-ph="ph.nombre">
+                                <input type="email" placeholder="Email *" required data-i18n-ph="ph.email">
+                            </div>
+                            <input type="tel" placeholder="Teléfono" data-i18n-ph="ph.telefono">
+                            <textarea placeholder="Mensaje *" required data-i18n-ph="ph.mensaje"></textarea>
+                            <div class="privacy-check">
+                                <input type="checkbox" id="privacy" required>
+                                <label for="privacy" data-i18n="footer.privacy">He leído y acepto la <a
+                                        href="#">política de privacidad</a></label>
+                            </div>
+                            <button type="submit" class="btn-send" data-i18n="footer.send">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p data-i18n="footer.copyright">Copyright &copy; 2024 - REPALSUR | Todos los derechos reservados | <a
+                        href="#">Aviso legal y Política
+                        de Privacidad</a> | <a href="#">Política de Cookies</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i
+            class="fas fa-chevron-up"></i></button>
+
+    <div class="cookies-banner show" id="cookiesBanner">
+        <p data-i18n="cookies.text">Si continúas navegando por esta web, entendemos que aceptas <a href="#">las cookies
+                que usamos</a> para
+            mejorar nuestros servicios.</p>
+        <button class="btn-necessary" onclick="closeCookies()" data-i18n="cookies.necessary">Aceptar las
+            obligatorias</button>
+        <button class="btn-accept" onclick="closeCookies()" data-i18n="cookies.accept">Aceptar cookies</button>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
