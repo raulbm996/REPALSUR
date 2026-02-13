@@ -60,7 +60,8 @@
         <div class="hero-content">
             <h1 data-i18n="index.hero.title">REPAL<span>SUR</span>: Más de tres décadas de experiencia, dedicados a la
                 <span>excelencia</span> en
-                palets de madera</h1>
+                palets de madera
+            </h1>
             <p data-i18n="index.hero.subtitle">Compra-venta de palets usados, fabricación de palets nuevos y servicio
                 integral de reparación para
                 optimizar tu logística.</p>
@@ -293,14 +294,15 @@
                     </div>
                     <div class="footer-col">
                         <h3 data-i18n="footer.contacto">Contacto</h3>
-                        <form class="footer-form"
-                            onsubmit="event.preventDefault(); alert('Mensaje enviado correctamente.');">
+                        <form class="footer-form">
                             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-                                <input type="text" placeholder="Nombre *" required data-i18n-ph="ph.nombre">
-                                <input type="email" placeholder="Email *" required data-i18n-ph="ph.email">
+                                <input type="text" name="nombre" placeholder="Nombre *" required
+                                    data-i18n-ph="ph.nombre">
+                                <input type="email" name="email" placeholder="Email *" required data-i18n-ph="ph.email">
                             </div>
-                            <input type="tel" placeholder="Teléfono" data-i18n-ph="ph.telefono">
-                            <textarea placeholder="Mensaje *" required data-i18n-ph="ph.mensaje"></textarea>
+                            <input type="tel" name="telefono" placeholder="Teléfono" data-i18n-ph="ph.telefono">
+                            <textarea name="mensaje" placeholder="Mensaje *" required
+                                data-i18n-ph="ph.mensaje"></textarea>
                             <div class="privacy-check">
                                 <input type="checkbox" id="privacy" required>
                                 <label for="privacy" data-i18n="footer.privacy">He leído y acepto la <a

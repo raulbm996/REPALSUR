@@ -48,6 +48,77 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 });
 
+// ===== ENVÍO DE FORMULARIOS (Formsubmit.co) =====
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.contacto-form, .footer-form').forEach(form => {
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const btn = form.querySelector('button[type="submit"]');
+            const originalHTML = btn.innerHTML;
+            const lang = localStorage.getItem('lang') || 'es';
+
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> ' + (lang === 'en' ? 'Sending...' : 'Enviando...');
+            btn.disabled = true;
+
+            const formData = new FormData(form);
+            const data = {};
+            formData.forEach((value, key) => {
+                if (key !== 'privacy') data[key] = value;
+            });
+
+            // Hidden config fields for Formsubmit.co
+            data['_subject'] = 'Nuevo mensaje desde la web de REPALSUR';
+            data['_template'] = 'table';
+            data['_captcha'] = 'false';
+
+            try {
+                const response = await fetch('https://formsubmit.co/ajax/info@repalsur.com', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    const successMsg = lang === 'en'
+                        ? 'Message sent successfully! We will contact you soon.'
+                        : '¡Mensaje enviado correctamente! Nos pondremos en contacto contigo pronto.';
+                    showFormMessage(form, 'success', successMsg);
+                    form.reset();
+                } else {
+                    const errorMsg = lang === 'en'
+                        ? 'There was an error sending the message. Please try again.'
+                        : 'Hubo un error al enviar el mensaje. Inténtalo de nuevo.';
+                    showFormMessage(form, 'error', errorMsg);
+                }
+            } catch (error) {
+                const connMsg = lang === 'en'
+                    ? 'Connection error. Please try again later.'
+                    : 'Error de conexión. Por favor, inténtalo más tarde.';
+                showFormMessage(form, 'error', connMsg);
+            }
+
+            btn.innerHTML = originalHTML;
+            btn.disabled = false;
+        });
+    });
+});
+
+function showFormMessage(form, type, text) {
+    const existing = form.querySelector('.form-message');
+    if (existing) existing.remove();
+
+    const msg = document.createElement('div');
+    msg.className = 'form-message form-message-' + type;
+    msg.textContent = text;
+    form.appendChild(msg);
+
+    setTimeout(() => { if (msg.parentNode) msg.remove(); }, 6000);
+}
+
 // Toggle noticia expandir/contraer
 function toggleNoticia(btn) {
     const card = btn.closest('.noticia-card');

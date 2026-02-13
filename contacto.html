@@ -97,8 +97,7 @@
                 <h2 data-i18n="cont.form.title">Envíanos un Mensaje</h2>
                 <p data-i18n="cont.form.desc">Rellena el formulario y nos pondremos en contacto contigo lo antes
                     posible.</p>
-                <form class="contacto-form"
-                    onsubmit="event.preventDefault(); alert('Mensaje enviado correctamente. Nos pondremos en contacto contigo pronto.');">
+                <form class="contacto-form">
                     <div class="form-row">
                         <div class="form-group">
                             <label for="nombre" data-i18n="cont.form.nombre">Nombre *</label>
@@ -193,14 +192,14 @@
                     </div>
                     <div class="footer-col">
                         <h3 data-i18n="footer.contacto">Contacto</h3>
-                        <form class="footer-form"
-                            onsubmit="event.preventDefault(); alert('Mensaje enviado correctamente.');">
+                        <form class="footer-form">
                             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;"><input type="text"
-                                    placeholder="Nombre *" required data-i18n-ph="ph.nombre"><input type="email"
-                                    placeholder="Email *" required data-i18n-ph="ph.email">
+                                    name="nombre" placeholder="Nombre *" required data-i18n-ph="ph.nombre"><input
+                                    type="email" name="email" placeholder="Email *" required data-i18n-ph="ph.email">
                             </div>
-                            <input type="tel" placeholder="Teléfono" data-i18n-ph="ph.telefono">
-                            <textarea placeholder="Mensaje *" required data-i18n-ph="ph.mensaje"></textarea>
+                            <input type="tel" name="telefono" placeholder="Teléfono" data-i18n-ph="ph.telefono">
+                            <textarea name="mensaje" placeholder="Mensaje *" required
+                                data-i18n-ph="ph.mensaje"></textarea>
                             <div class="privacy-check"><input type="checkbox" id="privacy" required><label for="privacy"
                                     data-i18n="footer.privacy">He leído y acepto la <a href="#">política de
                                         privacidad</a></label>
