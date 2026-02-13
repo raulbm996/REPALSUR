@@ -22,19 +22,19 @@ const translations = {
     "footer.donde": { es: "Donde Estamos", en: "Where We Are" },
     "footer.contacto": { es: "Contacto", en: "Contact" },
     "footer.privacy": {
-        es: 'He leído y acepto la <a href="#">política de privacidad</a>',
-        en: 'I have read and accept the <a href="#">privacy policy</a>'
+        es: 'He leído y acepto la <a href="aviso-legal.html">política de privacidad</a>',
+        en: 'I have read and accept the <a href="aviso-legal.html">privacy policy</a>'
     },
     "footer.send": { es: "Enviar Mensaje", en: "Send Message" },
     "footer.copyright": {
-        es: 'Copyright &copy; 2024 - REPALSUR | Todos los derechos reservados | <a href="#">Aviso legal y Política de Privacidad</a> | <a href="#">Política de Cookies</a>',
-        en: 'Copyright &copy; 2024 - REPALSUR | All rights reserved | <a href="#">Legal Notice and Privacy Policy</a> | <a href="#">Cookie Policy</a>'
+        es: 'Copyright &copy; 2026 - REPALSUR | Todos los derechos reservados | <a href="aviso-legal.html">Aviso legal y Política de Privacidad</a> | <a href="politica-cookies.html">Política de Cookies</a>',
+        en: 'Copyright &copy; 2026 - REPALSUR | All rights reserved | <a href="aviso-legal.html">Legal Notice and Privacy Policy</a> | <a href="politica-cookies.html">Cookie Policy</a>'
     },
 
     // ── COOKIES BANNER ──────────────────────────────────────
     "cookies.text": {
-        es: 'Si continúas navegando por esta web, entendemos que aceptas <a href="#">las cookies que usamos</a> para mejorar nuestros servicios.',
-        en: 'If you continue browsing this website, we understand that you accept <a href="#">the cookies we use</a> to improve our services.'
+        es: 'Si continúas navegando por esta web, entendemos que aceptas <a href="politica-cookies.html">las cookies que usamos</a> para mejorar nuestros servicios.',
+        en: 'If you continue browsing this website, we understand that you accept <a href="politica-cookies.html">the cookies we use</a> to improve our services.'
     },
     "cookies.necessary": { es: "Aceptar las obligatorias", en: "Accept required only" },
     "cookies.accept": { es: "Aceptar cookies", en: "Accept cookies" },
@@ -371,8 +371,8 @@ const translations = {
     "cont.form.asunto.ph": { es: "Asunto del mensaje", en: "Message subject" },
     "cont.form.mensaje.ph": { es: "Escribe tu mensaje...", en: "Write your message..." },
     "cont.form.privacy": {
-        es: 'He leído y acepto la <a href="#">política de privacidad</a>',
-        en: 'I have read and accept the <a href="#">privacy policy</a>'
+        es: 'He leído y acepto la <a href="aviso-legal.html">política de privacidad</a>',
+        en: 'I have read and accept the <a href="aviso-legal.html">privacy policy</a>'
     },
     "cont.form.btn": { es: 'Enviar Mensaje <i class="fas fa-paper-plane"></i>', en: 'Send Message <i class="fas fa-paper-plane"></i>' },
     "cont.presupuesto.title": { es: "¿Necesitas un presupuesto?", en: "Need a quote?" },
