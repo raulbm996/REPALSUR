@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 });
 
-// ===== ENVÍO DE FORMULARIOS (Formsubmit.co) =====
+// ===== ENVÍO DE FORMULARIOS (Formspree) =====
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.contacto-form, .footer-form').forEach(form => {
         form.addEventListener('submit', async function (e) {
@@ -62,24 +62,14 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.disabled = true;
 
             const formData = new FormData(form);
-            const data = {};
-            formData.forEach((value, key) => {
-                if (key !== 'privacy') data[key] = value;
-            });
-
-            // Hidden config fields for Formsubmit.co
-            data['_subject'] = 'Nuevo mensaje desde la web de REPALSUR';
-            data['_template'] = 'table';
-            data['_captcha'] = 'false';
 
             try {
-                const response = await fetch('https://formsubmit.co/ajax/info@repalsur.com', {
+                const response = await fetch('https://formspree.io/f/xzdaejvp', {
                     method: 'POST',
                     headers: {
-                        'Content-Type': 'application/json',
                         'Accept': 'application/json'
                     },
-                    body: JSON.stringify(data)
+                    body: formData
                 });
 
                 if (response.ok) {
