@@ -1666,6 +1666,31 @@ footer {
     }
 }
 
+body.menu-open {
+    overflow: hidden !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+}
+
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 998;
+    touch-action: none;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -1678,6 +1703,7 @@ footer {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         transform: translateY(-120%);
         transition: transform 0.4s ease;
+        z-index: 999;
         gap: 0;
     }
 
