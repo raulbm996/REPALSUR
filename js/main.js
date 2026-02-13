@@ -56,6 +56,14 @@ if (localStorage.getItem('cookiesAccepted') === 'true') {
 
 // Intersection Observer for fade-in animations
 document.addEventListener('DOMContentLoaded', () => {
+    // Immediately show elements already in viewport on page load
+    document.querySelectorAll('.fade-in').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+            el.classList.add('visible');
+        }
+    });
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -63,9 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 observer.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.15 });
+    }, { threshold: 0.05 });
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    document.querySelectorAll('.fade-in:not(.visible)').forEach(el => observer.observe(el));
 });
 
 // ===== ENVÍO DE FORMULARIOS (Formspree) =====
