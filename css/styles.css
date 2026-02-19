@@ -1,4 +1,4 @@
-/* ===== RESET & BASE ===== */
+﻿/* ===== RESET & BASE ===== */
 *,
 *::before,
 *::after {
@@ -205,7 +205,7 @@ header {
 .page-banner .banner-bg {
     position: absolute;
     inset: 0;
-    background: url('https://repalsur.com/wp-content/uploads/2024/12/Recurso-2-100.jpg') center/cover no-repeat;
+    background: url('../img/Recurso-2-100.jpg') center/cover no-repeat;
     z-index: -2;
 }
 
@@ -260,7 +260,7 @@ header {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url('https://repalsur.com/wp-content/uploads/2024/12/Recurso-2-100.jpg') center/cover no-repeat;
+    background: url('../img/Recurso-2-100.jpg') center/cover no-repeat;
     z-index: -2;
 }
 
