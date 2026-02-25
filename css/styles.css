@@ -109,7 +109,9 @@ header {
 }
 
 .logo img {
-    height: 70px;
+    height: 80px;
+    transform: scale(1.6);
+    transform-origin: left center;
 }
 
 .logo-text {
@@ -1429,7 +1431,7 @@ footer {
 }
 
 .footer-logo-img {
-    height: 45px;
+    height: 60px;
     margin-bottom: 15px;
     display: block;
     filter: brightness(0) invert(1);
