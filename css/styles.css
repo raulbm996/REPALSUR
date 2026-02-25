@@ -97,6 +97,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
+    width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     height: 80px;
@@ -185,6 +186,7 @@ header {
 
 /* ===== CONTAINER ===== */
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -278,7 +280,7 @@ header {
 }
 
 .hero-content h1 {
-    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-size: clamp(1.8rem, 6vw, 3rem);
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 25px;
@@ -360,7 +362,7 @@ header {
 }
 
 .section-title h2 {
-    font-size: 2.2rem;
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
     font-weight: 800;
     color: var(--green-dark);
     text-transform: uppercase;
@@ -763,6 +765,16 @@ header {
     gap: 40px;
 }
 
+@media (max-width: 900px) {
+    .servicios-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .productos-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 .producto-card {
     border-radius: 15px;
     overflow: hidden;
@@ -1006,6 +1018,7 @@ header {
     margin-bottom: 15px;
     display: -webkit-box;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -1024,6 +1037,7 @@ header {
 .noticia-full-text p {
     display: block;
     -webkit-line-clamp: unset;
+    line-clamp: unset;
     overflow: visible;
     margin-bottom: 10px;
     line-height: 1.7;
@@ -1036,6 +1050,7 @@ header {
 
 .noticia-card.expanded>.noticia-content>p {
     -webkit-line-clamp: unset;
+    line-clamp: unset;
     overflow: visible;
     display: block;
 }
@@ -1640,14 +1655,14 @@ footer {
     right: 0;
     background: rgba(26, 26, 26, 0.97);
     color: var(--white);
-    padding: 20px;
+    padding: 15px 20px;
     z-index: 10000;
     display: none;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     backdrop-filter: blur(10px);
 }
 
@@ -1762,11 +1777,6 @@ footer {
 
 body.menu-open {
     overflow: hidden !important;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    touch-action: none;
-    -webkit-overflow-scrolling: none;
 }
 
 .menu-overlay {
@@ -1786,9 +1796,23 @@ body.menu-open {
 }
 
 @media (max-width: 768px) {
+    .nav-container {
+        padding: 0 20px;
+        height: 70px;
+        position: relative;
+    }
+
+    .logo img {
+        height: 45px;
+    }
+
+    .logo-text {
+        font-size: 1.4rem;
+    }
+
     .nav-menu {
-        position: fixed;
-        top: 80px;
+        position: absolute;
+        top: 100%;
         left: 0;
         right: 0;
         background: var(--white);
@@ -1835,19 +1859,19 @@ body.menu-open {
 
     .hero {
         height: 70vh;
-        min-height: 450px;
+        min-height: 400px;
     }
 
     .hero-content h1 {
-        font-size: 1.6rem;
+        font-size: clamp(1.3rem, 7vw, 1.8rem);
     }
 
     .presupuesto h2 {
-        font-size: 1.8rem;
+        font-size: clamp(1.4rem, 6vw, 1.8rem);
     }
 
     .section {
-        padding: 60px 0;
+        padding: 50px 0;
     }
 
     .contacto-form-wrapper {
@@ -1859,7 +1883,7 @@ body.menu-open {
     }
 
     .page-banner {
-        height: 220px;
+        height: 180px;
     }
 }
 
@@ -1868,15 +1892,31 @@ body.menu-open {
         padding: 0 15px;
     }
 
+    .logo-text {
+        display: none;
+        /* Hide text on very small screens if logo img is enough */
+    }
+
     .hero-content h1 {
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
 
     .section-title h2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .noticias-grid {
         grid-template-columns: 1fr;
+    }
+
+    .cookies-banner {
+        padding: 12px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .cookies-banner button {
+        width: 100%;
+        padding: 8px 20px;
     }
 }
