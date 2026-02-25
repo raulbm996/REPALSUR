@@ -449,6 +449,383 @@ const translations = {
     },
     "not.presupuesto.btn": { es: "Solicitar Presupuesto", en: "Request Quote" },
 
+    
+    "legal.content": {
+        es: `<h2>1. Datos Identificativos</h2>
+                <p>En cumplimiento del deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de
+                    julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), a
+                    continuación se reflejan los datos identificativos del titular:</p>
+                <ul>
+                    <li><strong>Denominación social:</strong> REPALSUR</li>
+                    <li><strong>Domicilio:</strong> Polígono Industrial Santa Isabel, C. Pintores, 11, 41520 El Viso del
+                        Alcor, Sevilla</li>
+                    <li><strong>Teléfono:</strong> 674 708 456 / 955 946 460</li>
+                    <li><strong>Email:</strong> info@repalsur.com</li>
+                </ul>
+
+                <h2>2. Objeto</h2>
+                <p>El presente Aviso Legal regula el uso de la página web <strong>repalsur.com</strong> (en adelante,
+                    "el sitio web"). El acceso al sitio web atribuye la condición de usuario del mismo e implica la
+                    aceptación plena de todas las condiciones incluidas en este Aviso Legal. El usuario se compromete a
+                    leer atentamente el presente Aviso Legal en cada una de las ocasiones en que acceda al sitio web.
+                </p>
+
+                <h2>3. Propiedad Intelectual e Industrial</h2>
+                <p>Todos los contenidos del sitio web, incluyendo textos, fotografías, gráficos, imágenes, iconos,
+                    tecnología, software, enlaces y demás contenidos audiovisuales o sonoros, así como su diseño gráfico
+                    y códigos fuente, son propiedad intelectual de REPALSUR o de terceros, sin que puedan entenderse
+                    cedidos al usuario ninguno de los derechos de explotación reconocidos por la normativa vigente en
+                    materia de propiedad intelectual.</p>
+                <p>Las marcas, nombres comerciales o signos distintivos son titularidad de REPALSUR o de terceros, sin
+                    que pueda entenderse que el acceso al sitio web atribuya ningún derecho sobre los mismos.</p>
+
+                <h2>4. Condiciones de Uso</h2>
+                <p>El usuario se compromete a:</p>
+                <ul>
+                    <li>Hacer un uso adecuado y lícito del sitio web y de los contenidos y servicios, de conformidad con
+                        la legislación aplicable.</li>
+                    <li>No realizar actividades ilícitas o contrarias a la buena fe y al orden público.</li>
+                    <li>No provocar daños en los sistemas físicos y lógicos del sitio web o de terceros.</li>
+                    <li>No introducir o difundir virus informáticos o cualesquiera otros sistemas que sean susceptibles
+                        de provocar daños.</li>
+                </ul>
+
+                <h2>5. Exclusión de Responsabilidad</h2>
+                <p>REPALSUR no se hace responsable, en ningún caso, de los daños y perjuicios de cualquier naturaleza
+                    que pudieran ocasionar, a título enunciativo: errores u omisiones en los contenidos, falta de
+                    disponibilidad del sitio web o la transmisión de virus o programas maliciosos en los contenidos, a
+                    pesar de haber adoptado todas las medidas tecnológicas necesarias para evitarlo.</p>
+
+                <h2>6. Enlaces</h2>
+                <p>En el caso de que en el sitio web se dispusiesen enlaces o hipervínculos hacia otros sitios de
+                    Internet, REPALSUR no ejercerá ningún tipo de control sobre dichos sitios y contenidos. En ningún
+                    caso asumirá responsabilidad alguna por los contenidos de algún enlace perteneciente a un sitio web
+                    ajeno.</p>
+
+                <hr>
+
+                <h2>Política de Privacidad</h2>
+
+                <h3>1. Responsable del Tratamiento</h3>
+                <ul>
+                    <li><strong>Responsable:</strong> REPALSUR</li>
+                    <li><strong>Dirección:</strong> Polígono Industrial Santa Isabel, C. Pintores, 11, 41520 El Viso del
+                        Alcor, Sevilla</li>
+                    <li><strong>Email:</strong> info@repalsur.com</li>
+                    <li><strong>Teléfono:</strong> 674 708 456</li>
+                </ul>
+
+                <h3>2. Finalidad del Tratamiento</h3>
+                <p>Los datos personales recogidos a través de los formularios de contacto del sitio web serán tratados
+                    con las siguientes finalidades:</p>
+                <ul>
+                    <li>Responder a las consultas y solicitudes de información realizadas por los usuarios.</li>
+                    <li>Gestionar presupuestos y solicitudes de servicio.</li>
+                    <li>Mantener la comunicación comercial con los clientes, cuando hayan dado su consentimiento.</li>
+                </ul>
+
+                <h3>3. Legitimación</h3>
+                <p>La base legal para el tratamiento de sus datos es:</p>
+                <ul>
+                    <li>El consentimiento del usuario al enviar el formulario de contacto.</li>
+                    <li>El interés legítimo del responsable para gestionar las relaciones comerciales.</li>
+                    <li>La ejecución de un contrato o relación precontractual.</li>
+                </ul>
+
+                <h3>4. Conservación de los Datos</h3>
+                <p>Los datos personales proporcionados se conservarán mientras se mantenga la relación comercial o
+                    durante los años necesarios para cumplir con las obligaciones legales. Cuando ya no sean necesarios,
+                    se suprimirán con las medidas de seguridad adecuadas.</p>
+
+                <h3>5. Destinatarios</h3>
+                <p>Los datos no serán cedidos a terceros salvo obligación legal. No se realizan transferencias
+                    internacionales de datos.</p>
+
+                <h3>6. Derechos del Usuario</h3>
+                <p>El usuario puede ejercer los siguientes derechos:</p>
+                <ul>
+                    <li><strong>Acceso:</strong> conocer qué datos personales estamos tratando.</li>
+                    <li><strong>Rectificación:</strong> solicitar la corrección de datos inexactos.</li>
+                    <li><strong>Supresión:</strong> solicitar la eliminación de sus datos.</li>
+                    <li><strong>Oposición:</strong> oponerse al tratamiento de sus datos.</li>
+                    <li><strong>Limitación del tratamiento:</strong> solicitar la limitación del uso de sus datos.</li>
+                    <li><strong>Portabilidad:</strong> recibir sus datos en un formato estructurado.</li>
+                </ul>
+                <p>Para ejercer estos derechos, puede enviar un correo electrónico a <a
+                        href="mailto:info@repalsur.com">info@repalsur.com</a> indicando el derecho que desea ejercer y
+                    adjuntando copia de su DNI o documento identificativo.</p>
+                <p>También tiene derecho a presentar una reclamación ante la <strong>Agencia Española de Protección de
+                        Datos</strong> (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>).
+                </p>
+
+                <h3>7. Medidas de Seguridad</h3>
+                <p>REPALSUR ha adoptado las medidas técnicas y organizativas necesarias para garantizar la seguridad e
+                    integridad de los datos de carácter personal, así como para evitar su alteración, pérdida,
+                    tratamiento o acceso no autorizado.</p>
+
+                <h3>8. Modificaciones</h3>
+                <p>REPALSUR se reserva el derecho de modificar la presente Política de Privacidad para adaptarla a
+                    novedades legislativas o jurisprudenciales, así como a prácticas de la industria. En dichos
+                    supuestos, anunciará en esta página los cambios introducidos con razonable antelación a su puesta en
+                    práctica.</p>
+
+                <p><em>Última actualización: febrero de 2026</em></p>`,
+        en: `
+<h2>1. Identifying Data</h2>
+<p>In compliance with the information duty contained in article 10 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce (LSSI-CE), the identifying data of the owner are provided below:</p>
+<ul>
+    <li><strong>Corporate Name:</strong> REPALSUR</li>
+    <li><strong>Address:</strong> Polígono Industrial Santa Isabel, C. Pintores, 11, 41520 El Viso del Alcor, Sevilla</li>
+    <li><strong>Phone:</strong> 674 708 456 / 955 946 460</li>
+    <li><strong>Email:</strong> info@repalsur.com</li>
+</ul>
+
+<h2>2. Purpose</h2>
+<p>This Legal Notice regulates the use of the website <strong>repalsur.com</strong> (hereinafter, "the website"). Accessing the website attributes the condition of user and implies full acceptance of all terms included in this Legal Notice. The user undertakes to carefully read this Legal Notice each time they access the website.</p>
+
+<h2>3. Intellectual and Industrial Property</h2>
+<p>All website contents, including texts, photographs, graphics, images, icons, technology, software, links and other audiovisual or audio contents, as well as its graphic design and source codes, are the intellectual property of REPALSUR or third parties. None of the exploitation rights recognized by current legislation on intellectual property can be considered transferred to the user.</p>
+<p>Trademarks, trade names, or distinctive signs are the property of REPALSUR or third parties, and access to the website does not attribute any right over them.</p>
+
+<h2>4. Terms of Use</h2>
+<p>The user agrees to:</p>
+<ul>
+    <li>Make appropriate and lawful use of the website and its contents and services, in accordance with applicable legislation.</li>
+    <li>Not engage in unlawful activities or those contrary to good faith and public order.</li>
+    <li>Not cause damage to the physical and logical systems of the website or third parties.</li>
+    <li>Not introduce or spread computer viruses or any other systems susceptible to causing damage.</li>
+</ul>
+
+<h2>5. Exclusion of Liability</h2>
+<p>REPALSUR shall not be held liable, under any circumstances, for damages of any nature that may occur, including but not limited to: errors or omissions in content, lack of availability of the website or the transmission of viruses or malicious programs in content, despite having taken all necessary technological measures to prevent it.</p>
+
+<h2>6. Links</h2>
+<p>If the website features links or hyperlinks to other Internet sites, REPALSUR will not exercise any control over such sites and contents. In no case will it assume any liability for the contents of any link belonging to a third-party website.</p>
+
+<hr>
+
+<h2>Privacy Policy</h2>
+
+<h3>1. Data Controller</h3>
+<ul>
+    <li><strong>Controller:</strong> REPALSUR</li>
+    <li><strong>Address:</strong> Polígono Industrial Santa Isabel, C. Pintores, 11, 41520 El Viso del Alcor, Sevilla</li>
+    <li><strong>Email:</strong> info@repalsur.com</li>
+    <li><strong>Phone:</strong> 674 708 456</li>
+</ul>
+
+<h3>2. Purpose of Processing</h3>
+<p>The personal data collected through the contact forms on the website will be processed for the following purposes:</p>
+<ul>
+    <li>To respond to queries and information requests made by users.</li>
+    <li>To manage quotes and service requests.</li>
+    <li>To maintain commercial communication with customers, provided they have given their consent.</li>
+</ul>
+
+<h3>3. Legitimacy</h3>
+<p>The legal basis for processing your data is:</p>
+<ul>
+    <li>User consent when submitting the contact form.</li>
+    <li>The legitimate interest of the controller in managing commercial relationships.</li>
+    <li>The performance of a contract or pre-contractual relationship.</li>
+</ul>
+
+<h3>4. Data Retention</h3>
+<p>Personal data provided will be retained as long as the commercial relationship is maintained or for the years necessary to comply with legal obligations. When no longer necessary, data will be deleted with appropriate security measures.</p>
+
+<h3>5. Recipients</h3>
+<p>Data will not be disclosed to third parties unless required by law. There are no international data transfers.</p>
+
+<h3>6. User Rights</h3>
+<p>The user may exercise the following rights:</p>
+<ul>
+    <li><strong>Access:</strong> know what personal data we are processing.</li>
+    <li><strong>Rectification:</strong> request the correction of inaccurate data.</li>
+    <li><strong>Erasure:</strong> request the deletion of your data.</li>
+    <li><strong>Objection:</strong> object to the processing of your data.</li>
+    <li><strong>Restriction of processing:</strong> request limitation on the use of your data.</li>
+    <li><strong>Portability:</strong> receive your data in a structured format.</li>
+</ul>
+<p>To exercise these rights, you may send an email to <a href="mailto:info@repalsur.com">info@repalsur.com</a> indicating the right you wish to exercise and attaching a copy of your ID card or identification document.</p>
+<p>You also have the right to file a claim with the <strong>Spanish Data Protection Agency</strong> (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>).</p>
+
+<h3>7. Security Measures</h3>
+<p>REPALSUR has adopted the necessary technical and organizational measures to ensure the security and integrity of personal data, as well as to prevent its alteration, loss, unauthorized processing, or access.</p>
+
+<h3>8. Modifications</h3>
+<p>REPALSUR reserves the right to modify this Privacy Policy to adapt it to new legislation or case law, as well as industry practices. In such cases, the changes introduced will be announced on this page reasonably in advance of their implementation.</p>
+
+<p><em>Last updated: February 2026</em></p>
+`
+    },
+    "cookies.content": {
+        es: `<h2>1. ¿Qué son las cookies?</h2>
+                <p>Las cookies son pequeños archivos de texto que se almacenan en el dispositivo del usuario al visitar
+                    una página web. Permiten al sitio web recordar sus acciones y preferencias (como el idioma o el
+                    tamaño de letra) durante un periodo de tiempo, de modo que el usuario no tiene que volver a
+                    configurarlos cada vez que regresa al sitio o navega de una página a otra.</p>
+
+                <h2>2. ¿Qué tipos de cookies utilizamos?</h2>
+
+                <h3>Cookies técnicas (obligatorias)</h3>
+                <p>Son necesarias para el funcionamiento básico del sitio web. Permiten la navegación y el uso de
+                    funciones esenciales.</p>
+                <table class="cookies-table">
+                    <thead>
+                        <tr>
+                            <th>Cookie</th>
+                            <th>Finalidad</th>
+                            <th>Duración</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>cookiesAccepted</td>
+                            <td>Almacena la aceptación del aviso de cookies por parte del usuario</td>
+                            <td>Persistente</td>
+                        </tr>
+                        <tr>
+                            <td>lang</td>
+                            <td>Almacena la preferencia de idioma del usuario (es/en)</td>
+                            <td>Persistente</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Cookies de terceros</h3>
+                <p>Nuestro sitio web puede incluir contenido de terceros (como Google Maps en la página de contacto).
+                    Estos servicios pueden establecer sus propias cookies.</p>
+                <table class="cookies-table">
+                    <thead>
+                        <tr>
+                            <th>Proveedor</th>
+                            <th>Finalidad</th>
+                            <th>Más información</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Google Maps</td>
+                            <td>Visualización del mapa de ubicación integrado</td>
+                            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de
+                                    privacidad de Google</a></td>
+                        </tr>
+                        <tr>
+                            <td>Google Fonts</td>
+                            <td>Carga de tipografías para el diseño del sitio</td>
+                            <td><a href="https://developers.google.com/fonts/faq/privacy" target="_blank"
+                                    rel="noopener">Privacidad de Google Fonts</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>3. ¿Cómo gestionar las cookies?</h2>
+                <p>Al acceder a nuestro sitio web por primera vez, se muestra un banner informativo sobre el uso de
+                    cookies donde el usuario puede:</p>
+                <ul>
+                    <li><strong>Aceptar las obligatorias:</strong> solo se instalarán las cookies técnicas necesarias
+                        para el funcionamiento del sitio.</li>
+                    <li><strong>Aceptar cookies:</strong> se aceptan todas las cookies, incluidas las de terceros.</li>
+                </ul>
+
+                <p>Además, el usuario puede configurar su navegador para bloquear o eliminar cookies. A continuación se
+                    indican los enlaces de configuración de los navegadores más comunes:</p>
+                <ul>
+                    <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google
+                            Chrome</a></li>
+                    <li><a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-"
+                            target="_blank" rel="noopener">Mozilla Firefox</a></li>
+                    <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank"
+                            rel="noopener">Safari</a></li>
+                    <li><a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09"
+                            target="_blank" rel="noopener">Microsoft Edge</a></li>
+                </ul>
+                <p><strong>Nota:</strong> Si el usuario desactiva o bloquea las cookies, es posible que algunas
+                    funcionalidades del sitio web no estén disponibles o no funcionen correctamente.</p>
+
+                <h2>4. Actualizaciones de esta política</h2>
+                <p>REPALSUR se reserva el derecho de modificar esta Política de Cookies en cualquier momento para
+                    adaptarla a novedades legislativas o cambios en el sitio web. Se recomienda revisar esta política
+                    periódicamente.</p>
+
+                <p><em>Última actualización: febrero de 2026</em></p>`,
+        en: `
+<h2>1. What are cookies?</h2>
+<p>Cookies are small text files that are stored on the user's device when visiting a website. They allow the website to remember your actions and preferences (such as language or font size) over a period of time, so you don't have to re-enter them whenever you come back to the site or browse from one page to another.</p>
+
+<h2>2. What types of cookies do we use?</h2>
+
+<h3>Technical cookies (mandatory)</h3>
+<p>These are necessary for the basic functioning of the website. They allow navigation and the use of essential features.</p>
+<table class="cookies-table">
+    <thead>
+        <tr>
+            <th>Cookie</th>
+            <th>Purpose</th>
+            <th>Duration</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>cookiesAccepted</td>
+            <td>Stores the user's acceptance of the cookie notice</td>
+            <td>Persistent</td>
+        </tr>
+        <tr>
+            <td>lang</td>
+            <td>Stores the user's language preference (es/en)</td>
+            <td>Persistent</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Third-party cookies</h3>
+<p>Our website may include third-party content (such as Google Maps on the contact page). These services may set their own cookies.</p>
+<table class="cookies-table">
+    <thead>
+        <tr>
+            <th>Provider</th>
+            <th>Purpose</th>
+            <th>More information</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Google Maps</td>
+            <td>Display of the integrated location map</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></td>
+        </tr>
+        <tr>
+            <td>Google Fonts</td>
+            <td>Loading fonts for site design</td>
+            <td><a href="https://developers.google.com/fonts/faq/privacy" target="_blank" rel="noopener">Google Fonts Privacy</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>3. How to manage cookies?</h2>
+<p>When accessing our website for the first time, an informative banner about the use of cookies is displayed where the user can:</p>
+<ul>
+    <li><strong>Accept required only:</strong> only the technical cookies necessary for the operation of the site will be installed.</li>
+    <li><strong>Accept cookies:</strong> all cookies are accepted, including third-party cookies.</li>
+</ul>
+
+<p>In addition, the user can configure their browser to block or delete cookies. Below are the configuration links for the most common browsers:</p>
+<ul>
+    <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+    <li><a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+    <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+    <li><a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener">Microsoft Edge</a></li>
+</ul>
+<p><strong>Note:</strong> If the user disables or blocks cookies, some website features may not be available or may not function properly.</p>
+
+<h2>4. Updates to this policy</h2>
+<p>REPALSUR reserves the right to modify this Cookie Policy at any time to adapt it to new legislation or changes to the website. We recommend reviewing this policy periodically.</p>
+
+<p><em>Last updated: February 2026</em></p>
+`
+    },
+
     // ── PLACEHOLDERS FOOTER FORM ────────────────────────────
     "ph.nombre": { es: "Nombre *", en: "Name *" },
     "ph.email": { es: "Email *", en: "Email *" },
