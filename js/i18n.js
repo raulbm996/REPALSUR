@@ -449,7 +449,13 @@ const translations = {
     },
     "not.presupuesto.btn": { es: "Solicitar Presupuesto", en: "Request Quote" },
 
-    
+
+    // ── LEGAL Y COOKIES PAGES ───────────────────────────────
+    "legal.banner.title": { es: "Aviso Legal y Política de Privacidad", en: "Legal Notice and Privacy Policy" },
+    "legal.banner.bread": { es: '<a href="index.html">INICIO</a> / AVISO LEGAL', en: '<a href="index.html">HOME</a> / LEGAL NOTICE' },
+    "cookies.banner.title": { es: "Política de Cookies", en: "Cookie Policy" },
+    "cookies.banner.bread": { es: '<a href="index.html">INICIO</a> / POLÍTICA DE COOKIES', en: '<a href="index.html">HOME</a> / COOKIE POLICY' },
+
     "legal.content": {
         es: `<h2>1. Datos Identificativos</h2>
                 <p>En cumplimiento del deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de
