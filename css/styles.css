@@ -1,4 +1,4 @@
-﻿/* ===== RESET & BASE ===== */
+/* ===== RESET & BASE ===== */
 *,
 *::before,
 *::after {
@@ -1821,14 +1821,20 @@ body.menu-open {
         flex-direction: column;
         padding: 20px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        transform: translateY(-120%);
-        transition: transform 0.4s ease;
+        transform: translateY(-20px);
+        transition: transform 0.4s ease, opacity 0.4s ease, visibility 0.4s ease;
         z-index: 999;
         gap: 0;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
     }
 
     .nav-menu.open {
         transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
     }
 
     .nav-menu a {
