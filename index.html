@@ -1,331 +1,116 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPALSUR - Más de tres décadas de experiencia en palets de madera</title>
-    <meta name="description"
-        content="Repalsur: compra-venta de palets usados, fabricación de palets nuevos y servicio de reparación. Más de 30 años de experiencia en El Viso del Alcor, Sevilla.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/png" href="img/favi%20icon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Palets nuevos y usados en Sevilla | Repalsur</title>
+<meta name="description" content="Palets de madera nuevos a medida y palets usados revisados en El Viso del Alcor (Sevilla). Recogida, reparación y reparto con flota propia. Pide presupuesto: 674 708 456.">
+<link rel="canonical" href="https://www.repalsur.com/">
+<link rel="alternate" hreflang="es" href="https://www.repalsur.com/">
+<link rel="alternate" hreflang="en" href="https://www.repalsur.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://www.repalsur.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Repalsur">
+<meta property="og:title" content="Palets nuevos y usados en Sevilla | Repalsur">
+<meta property="og:description" content="Palets de madera nuevos a medida y palets usados revisados en El Viso del Alcor (Sevilla). Recogida, reparación y reparto con flota propia. Pide presupuesto: 674 708 456.">
+<meta property="og:url" content="https://www.repalsur.com/">
+<meta property="og:image" content="https://www.repalsur.com/assets/img/hero-16x9-1400.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2a241e">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/saira.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/publicsans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="/assets/img/hero-16x9-1100.webp" imagesrcset="/assets/img/hero-16x9-640.webp 640w, /assets/img/hero-16x9-1100.webp 1100w, /assets/img/hero-16x9-1600.webp 1600w, /assets/img/hero-16x9-2048.webp 2048w" imagesizes="100vw">
+<link rel="stylesheet" href="/assets/main.css?v=202611061058">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.repalsur.com/#empresa","name":"Repalsur","url":"https://www.repalsur.com/","logo":"https://www.repalsur.com/assets/img/logo-512.png","image":"https://www.repalsur.com/assets/img/hero-16x9-1400.webp","telephone":"+34674708456","email":"info@repalsur.com","address":{"@type":"PostalAddress","streetAddress":"Polígono Industrial Santa Isabel, C. Pintores, 11","postalCode":"41520","addressLocality":"El Viso del Alcor","addressRegion":"Sevilla","addressCountry":"ES"},"areaServed":{"@type":"AdministrativeArea","name":"Andalucía"},"sameAs":["https://www.instagram.com/repalsur","https://www.facebook.com/profile.php?id=61586434562846"],"knowsAbout":["Palets nuevos","Palets usados","Reparación de palets","Recogida de palets","NIMF-15"]}]}</script>
 </head>
-
-<body>
-
-    <!-- ===== TOP BAR ===== -->
-    <div class="top-bar">
-        <div class="container">
-            <a href="https://www.instagram.com/repalsur?igsh=aXprcXZhcXl5dDM0&utm_source=qr" target="_blank"
-                rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=61586434562846" target="_blank" rel="noopener"
-                aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-        </div>
-    </div>
-
-    <!-- ===== HEADER ===== -->
-    <header>
-        <nav class="nav-container">
-            <a href="index.html" class="logo">
-                <img src="img/logo_calidadmejorada-removebg-preview.png" alt="Repalsur" class="logo-img">
-            </a>
-            <div class="nav-menu" id="navMenu">
-                <a href="index.html" class="active" data-i18n="nav.inicio">Inicio</a>
-                <a href="servicios.html" data-i18n="nav.servicios">Servicios</a>
-                <a href="productos.html" data-i18n="nav.productos">Productos</a>
-                <a href="nosotros.html" data-i18n="nav.nosotros">Nosotros</a>
-                <a href="contacto.html" data-i18n="nav.contacto">Contacto</a>
-                <a href="noticias.html" data-i18n="nav.noticias">Noticias</a>
-                <div class="lang-switch">
-                    <a href="#" data-lang="es" class="active" onclick="event.preventDefault(); switchLang('es')">ES</a>
-                    <a href="#" data-lang="en" onclick="event.preventDefault(); switchLang('en')">EN</a>
-                </div>
-            </div>
-            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-                <span></span><span></span><span></span>
-            </div>
-        </nav>
-    </header>
-
-    <!-- ===== HERO ===== -->
-    <section class="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 data-i18n="index.hero.title">REPAL<span>SUR</span>: Más de tres décadas de experiencia, dedicados a la
-                <span>excelencia</span> en
-                palets de madera
-            </h1>
-            <p data-i18n="index.hero.subtitle">Compra-venta de palets usados, fabricación de palets nuevos y servicio
-                integral de reparación para
-                optimizar tu logística.</p>
-            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                <a href="contacto.html" class="btn btn-primary" data-i18n="index.hero.btn1">Ver más</a>
-                <a href="nosotros.html" class="btn btn-outline" data-i18n="index.hero.btn2">Conócenos</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== NOSOTROS RESUMEN ===== -->
-    <section class="section nosotros">
-        <div class="container">
-            <div class="nosotros-grid">
-                <div class="nosotros-image fade-in">
-                    <img src="img/Recurso-2-1.png" alt="Almacén de palets de madera Repalsur">
-                </div>
-                <div class="nosotros-text fade-in">
-                    <h2 data-i18n="index.nosotros.title">Nosotros</h2>
-                    <p data-i18n="index.nosotros.p1">En Repalsur nos dedicamos a brindar soluciones completas dentro del
-                        sector de los palets,
-                        garantizando un alto estándar de calidad, eficiencia y responsabilidad ambiental en cada uno de
-                        nuestros servicios.</p>
-                    <p data-i18n="index.nosotros.p2">Nuestra amplia experiencia nos ha posicionado como un referente en
-                        la compra-venta de palets
-                        usados, en la producción de palets nuevos y en el mantenimiento a través de un servicio integral
-                        de reparación.</p>
-                    <a href="nosotros.html" class="btn btn-green-outline" data-i18n="index.nosotros.btn">Saber más</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== SERVICIOS RESUMEN ===== -->
-    <section class="section servicios">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2 data-i18n="index.servicios.title">Servicios</h2>
-            </div>
-            <div class="servicios-grid">
-                <a href="servicios.html" class="servicio-card fade-in" style="text-decoration:none;">
-                    <div class="card-img">
-                        <img src="img/recuperacion1.jpeg" alt="Recuperación de palets">
-                        <div class="card-img-overlay"></div>
-                    </div>
-                    <div class="card-icon"><i class="fas fa-recycle"></i></div>
-                    <div class="card-body">
-                        <h3 data-i18n="index.serv.recuperacion">Recuperación</h3>
-                        <p data-i18n="index.serv.recuperacion.desc">Recogida y recuperación de palets usados para darles
-                            una segunda vida.</p>
-                    </div>
-                </a>
-                <a href="servicios.html" class="servicio-card fade-in" style="text-decoration:none;">
-                    <div class="card-img">
-                        <img src="img/compraventa1.jpeg" alt="Compraventa de palets">
-                        <div class="card-img-overlay"></div>
-                    </div>
-                    <div class="card-icon"><i class="fas fa-handshake"></i></div>
-                    <div class="card-body">
-                        <h3 data-i18n="index.serv.compraventa">Compraventa</h3>
-                        <p data-i18n="index.serv.compraventa.desc">Compra y venta de palets usados de alta calidad,
-                            inspeccionados.</p>
-                    </div>
-                </a>
-                <a href="servicios.html" class="servicio-card fade-in" style="text-decoration:none;">
-                    <div class="card-img">
-                        <img src="img/distribucion1.jpeg" alt="Distribución de palets">
-                        <div class="card-img-overlay"></div>
-                    </div>
-                    <div class="card-icon"><i class="fas fa-truck"></i></div>
-                    <div class="card-body">
-                        <h3 data-i18n="index.serv.distribucion">Distribución</h3>
-                        <p data-i18n="index.serv.distribucion.desc">Servicio de distribución y logística de palets
-                            adaptado a cada cliente.</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== PRODUCTOS RESUMEN ===== -->
-    <section class="section productos">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2 data-i18n="index.productos.title">Productos</h2>
-            </div>
-            <div class="productos-grid">
-                <a href="productos.html" class="producto-card fade-in">
-                    <img src="img/Recurso-2-1.png" alt="Palets nuevos de madera">
-                    <div class="producto-overlay">
-                        <div class="producto-info">
-                            <h3 data-i18n="index.prod.nuevos">Palets Nuevos</h3>
-                            <p data-i18n="index.prod.nuevos.desc">Fabricamos palets nuevos a medida, con materiales de
-                                primera calidad.</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productos.html" class="producto-card fade-in">
-                    <img src="img/segundo.uso.jpeg" alt="Palets de segundo uso">
-                    <div class="producto-overlay">
-                        <div class="producto-info">
-                            <h3 data-i18n="index.prod.segundo">Palets de Segundo Uso</h3>
-                            <p data-i18n="index.prod.segundo.desc">Palets usados reacondicionados y revisados,
-                                económicos y sostenibles.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== PRESUPUESTO ===== -->
-    <section class="presupuesto">
-        <div class="container">
-            <h2 class="fade-in" data-i18n="index.presupuesto.title">Solicítanos tu presupuesto</h2>
-            <p class="fade-in" data-i18n="index.presupuesto.desc">¿Necesitas palets para tu empresa? Cuéntanos lo que
-                necesitas y te ofreceremos la mejor
-                solución.</p>
-            <a href="contacto.html" class="btn btn-outline fade-in" data-i18n="index.presupuesto.btn">Solicitar
-                Presupuesto</a>
-        </div>
-    </section>
-
-    <!-- ===== NOTICIAS RESUMEN ===== -->
-    <section class="section noticias">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2 data-i18n="index.noticias.title">Noticias</h2>
-            </div>
-            <div class="noticias-grid">
-                <article class="noticia-card fade-in">
-                    <div class="noticia-img"><img src="img/blog1-768x512.jpg" alt="Compra-venta de palets usados"></div>
-                    <div class="noticia-body">
-                        <h3><a href="noticias.html" data-i18n="index.not1.title">Guía completa sobre la compra-venta de
-                                palets usados</a></h3>
-                        <p data-i18n="index.not1.desc">La compra-venta de palets usados es una solución eficiente y
-                            sostenible para muchas empresas.
-                        </p>
-                        <a href="noticias.html" class="read-more" data-i18n="readmore">Leer más <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-                <article class="noticia-card fade-in">
-                    <div class="noticia-img"><img src="img/blog2-768x512.jpg" alt="Fabricación de palets nuevos"></div>
-                    <div class="noticia-body">
-                        <h3><a href="noticias.html" data-i18n="index.not2.title">Fabricación de palets nuevos: calidad y
-                                adaptabilidad</a></h3>
-                        <p data-i18n="index.not2.desc">Los palets nuevos son ideales para empresas que requieren
-                            fiabilidad y personalización en su
-                            logística.</p>
-                        <a href="noticias.html" class="read-more" data-i18n="readmore">Leer más <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-                <article class="noticia-card fade-in">
-                    <div class="noticia-img"><img src="img/blog3-768x512.jpg" alt="Reparación de palets"></div>
-                    <div class="noticia-body">
-                        <h3><a href="noticias.html" data-i18n="index.not3.title">Reparación de palets: ahorro y
-                                sostenibilidad</a></h3>
-                        <p data-i18n="index.not3.desc">Reparar palets es la mejor solución para ahorrar costes y cuidar
-                            el medio ambiente.</p>
-                        <a href="noticias.html" class="read-more" data-i18n="readmore">Leer más <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-                <article class="noticia-card fade-in">
-                    <div class="noticia-img"><img src="img/blog4-768x512.jpg" alt="Palets de calidad"></div>
-                    <div class="noticia-body">
-                        <h3><a href="noticias.html" data-i18n="index.not4.title">Beneficios de usar palets de calidad en
-                                tu negocio</a></h3>
-                        <p data-i18n="index.not4.desc">Utilizar palets de calidad es clave para garantizar una logística
-                            eficiente y segura.</p>
-                        <a href="noticias.html" class="read-more" data-i18n="readmore">Leer más <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== FOOTER ===== -->
-    <footer>
-        <div class="footer-main">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-col">
-                        <img src="img/logo_calidadmejorada-removebg-preview.png" alt="Repalsur" class="footer-logo-img">
-                        <h3 data-i18n="footer.sobre">Sobre Nosotros</h3>
-                        <p data-i18n="footer.sobre.desc">Ofrecemos a nuestros clientes compra-venta de palets usados,
-                            fabricación de palets nuevos y
-                            servicio de reparación.</p>
-                        <p style="margin-top: 10px; font-weight: 500;" data-i18n="footer.encuentranos">Encuéntranos en:
-                        </p>
-                        <div class="footer-social">
-                            <a href="https://www.facebook.com/profile.php?id=61586434562846" target="_blank"
-                                rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/repalsur?igsh=aXprcXZhcXl5dDM0&utm_source=qr"
-                                target="_blank" rel="noopener" aria-label="Instagram"><i
-                                    class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="footer-col">
-                        <h3 data-i18n="footer.donde">Donde Estamos</h3>
-                        <div class="footer-contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://maps.app.goo.gl/41kAxWgpmJ8QtrSq5" target="_blank" rel="noopener">Polígono
-                                Industrial Santa Isabel<br>C. Pintores, 11<br>41520 El Viso del Alcor, Sevilla</a>
-                        </div>
-                        <div class="footer-contact-item">
-                            <i class="fas fa-phone-alt"></i>
-                            <div><a href="tel:+34674708456">674 708 456</a><br><a href="tel:+34955946460">955 946
-                                    460</a></div>
-                        </div>
-                        <div class="footer-contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:info@repalsur.com">info@repalsur.com</a>
-                        </div>
-                    </div>
-                    <div class="footer-col">
-                        <h3 data-i18n="footer.contacto">Contacto</h3>
-                        <form class="footer-form">
-                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-                                <input type="text" name="nombre" placeholder="Nombre *" required
-                                    data-i18n-ph="ph.nombre">
-                                <input type="email" name="email" placeholder="Email *" required data-i18n-ph="ph.email">
-                            </div>
-                            <input type="tel" name="telefono" placeholder="Teléfono" data-i18n-ph="ph.telefono">
-                            <textarea name="mensaje" placeholder="Mensaje *" required
-                                data-i18n-ph="ph.mensaje"></textarea>
-                            <div class="privacy-check">
-                                <input type="checkbox" id="privacy" required>
-                                <label for="privacy" data-i18n="footer.privacy">He leído y acepto la <a
-                                        href="aviso-legal.html">política de privacidad</a></label>
-                            </div>
-                            <button type="submit" class="btn-send" data-i18n="footer.send">Enviar Mensaje</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p data-i18n="footer.copyright">Copyright &copy; 2026 - REPALSUR | Todos los derechos reservados | <a
-                        href="aviso-legal.html">Aviso legal y Política
-                        de Privacidad</a> | <a href="politica-cookies.html">Política de Cookies</a></p>
-            </div>
-        </div>
-    </footer>
-
-    <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i
-            class="fas fa-chevron-up"></i></button>
-
-    <div class="cookies-banner show" id="cookiesBanner">
-        <p data-i18n="cookies.text">Si continúas navegando por esta web, entendemos que aceptas <a
-                href="politica-cookies.html">las cookies
-                que usamos</a> para
-            mejorar nuestros servicios.</p>
-        <button class="btn-necessary" onclick="closeCookies()" data-i18n="cookies.necessary">Aceptar las
-            obligatorias</button>
-        <button class="btn-accept" onclick="closeCookies()" data-i18n="cookies.accept">Aceptar cookies</button>
-    </div>
-
-    <script src="js/i18n.js"></script>
-    <script src="js/main.js"></script>
+<body class="is-home">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="hdr"><div class="hdr-in">
+<a class="logo" href="/"><img src="/assets/img/logo-h-56.webp" srcset="/assets/img/logo-h-56.webp 152w, /assets/img/logo-h-112.webp 304w" sizes="152px" width="152" height="56" alt="Repalsur · Reparación de palets del sur"></a>
+<nav class="nav" aria-label="Principal"><ul><li><a href="/palets-nuevos/">Palets nuevos</a></li><li><a href="/palets-usados/">Palets usados</a></li><li><a href="/servicios/">Servicios</a></li><li><a href="/nosotros/">Nosotros</a></li><li><a href="/noticias/">Blog</a></li><li><a href="/contacto/">Contacto</a></li></ul></nav>
+<a class="hdr-tel" href="tel:+34674708456"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>674 708 456</span></a>
+<a class="lang" href="/en/" hreflang="en" lang="en" data-lang-switch>EN</a>
+<a class="btn btn--gold btn--sm hdr-cta" href="/contacto/#presupuesto">Pedir presupuesto</a>
+<button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
+</div></header>
+<div class="mnav" id="mnav" hidden><div class="mnav-in">
+<ul class="mnav-main"><li><a href="/">Inicio</a></li><li><a href="/palets-nuevos/">Palets nuevos</a></li><li><a href="/palets-usados/">Palets usados</a></li><li><a href="/servicios/">Servicios</a></li><li><a href="/nosotros/">Nosotros</a></li><li><a href="/noticias/">Blog</a></li><li><a href="/contacto/">Contacto</a></li></ul>
+<a class="btn btn--gold btn--block" href="/contacto/#presupuesto">Pedir presupuesto</a>
+<a class="btn btn--line btn--block" href="tel:+34674708456"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> Llamar al 674 708 456</a>
+<a class="lang lang--m" href="/en/" hreflang="en" lang="en" data-lang-switch>EN</a>
+</div></div>
+<main id="main">
+<section class="hero">
+<figure class="hero-bg"><img src="/assets/img/hero-16x9-2048.webp" srcset="/assets/img/hero-16x9-640.webp 640w, /assets/img/hero-16x9-1100.webp 1100w, /assets/img/hero-16x9-1600.webp 1600w, /assets/img/hero-16x9-2048.webp 2048w" sizes="100vw" width="2048" height="1152" alt="" fetchpriority="high" decoding="async"><video class="hero-vid js-hero-vid" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" data-src-s="/assets/video/hero-960.mp4?v=202611061058" data-src-l="/assets/video/hero-1280.mp4?v=202611061058"></video></figure>
+<div class="hero-in">
+<div class="hero-t"><p class="kicker">Más de 30 años en El Viso del Alcor · Sevilla</p>
+<h1>Palets de madera <em>nuevos y usados</em>, cuando los necesitas</h1>
+<p class="hero-lead">Fabricamos palets a medida, vendemos palets de segunda mano revisados uno a uno y recogemos, reparamos y repartimos con flota propia.</p>
+<div class="cta-row"><a class="btn btn--gold btn--lg" href="#productos">Ver nuestros palets <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="btn btn--glass btn--lg" href="tel:+34674708456"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> 674 708 456</a></div></div>
+<div class="hero-stack" aria-hidden="true"><img src="/assets/img/render-708.webp" srcset="/assets/img/render-420.webp 420w, /assets/img/render-708.webp 708w" sizes="(max-width: 900px) 70vw, 40vw" width="708" height="530" alt="" fetchpriority="high" decoding="async" class="hero-render"><span class="hero-chip hero-chip--a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Revisados uno a uno</span><span class="hero-chip hero-chip--b"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17 17 3l4 4L7 21z"/><path d="m7 13 2 2M10 10l2 2M13 7l2 2"/></svg> A medida</span></div>
+</div>
+<a class="hero-scroll" href="#productos" aria-label="Bajar a los productos"><span></span></a>
+</section>
+<div class="ticker " aria-hidden="true"><ul class="tk-track"><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Palets nuevos a medida</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Palets de segunda mano</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Reparación de palets</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Recogida en tu empresa</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Tratamiento NIMF-15</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Flota propia</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Economía circular</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>El Viso del Alcor · Sevilla</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Palets nuevos a medida</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Palets de segunda mano</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Reparación de palets</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Recogida en tu empresa</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Tratamiento NIMF-15</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Flota propia</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>Economía circular</span></li><li><svg class="tk-ic" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg><span>El Viso del Alcor · Sevilla</span></li></ul></div><section class="sec sec--flush" id="productos"><div class="wrap"><div class="shead shead--split"><div><p class="kicker">Nuestros palets</p><h2>Dos formas de mover <em>tu mercancía</em></h2></div><p class="lead">Nuevos, fabricados para tu carga, o de segundo uso, revisados y listos para trabajar. Elige y te preparamos el presupuesto.</p></div></div>
+<div class="pduo"><article class="pduo-c pduo-c--nuevos"><a class="pduo-a" href="/palets-nuevos/" aria-label="Palets nuevos">
+<figure class="pduo-ph"><img src="/assets/img/nuevos-4x5-1131.webp" srcset="/assets/img/nuevos-4x5-560.webp 560w, /assets/img/nuevos-4x5-960.webp 960w, /assets/img/nuevos-4x5-1131.webp 1131w" sizes="(max-width: 900px) 100vw, 50vw" width="1131" height="1414" alt="" loading="lazy" decoding="async"></figure>
+<div class="pduo-t"><p class="pduo-tag">Fabricación a medida</p><h3>Palets nuevos</h3><p>Fabricamos palets nuevos a medida, con madera de primera calidad y tratamiento NIMF-15 para exportación.</p><ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Resistencia garantizada</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Personalización</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Cumplimiento normativo</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Versatilidad</li></ul>
+<span class="btn btn--gold">Ver palets nuevos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a></article><article class="pduo-c pduo-c--usados"><a class="pduo-a" href="/palets-usados/" aria-label="Palets usados">
+<figure class="pduo-ph"><img src="/assets/img/usados-4x5-1400.webp" srcset="/assets/img/usados-4x5-560.webp 560w, /assets/img/usados-4x5-960.webp 960w, /assets/img/usados-4x5-1400.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" width="1400" height="1750" alt="" loading="lazy" decoding="async"></figure>
+<div class="pduo-t"><p class="pduo-tag">Segundo uso, revisados</p><h3>Palets usados</h3><p>Palets de segunda mano seleccionados, reparados y revisados uno a uno. Económicos y sostenibles.</p><ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Ahorro económico</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Sostenibilidad</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Inspección</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Disponibilidad</li></ul>
+<span class="btn btn--gold">Ver palets usados <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a></article></div></section><section class="nums"><ul class="wrap nums-l"><li class="rv" style="--k:0"><b><i>+</i><span class="js-count" data-to="30">30</span></b><strong>años</strong><small>dedicados al palet de madera</small></li><li class="rv" style="--k:1"><b><i></i><span class="js-count" data-to="60">60</span></b><strong>% de ahorro</strong><small>como máximo, al reparar un palet en vez de comprarlo nuevo</small></li><li class="rv" style="--k:2"><b><i><</i><span class="js-count" data-to="24">24</span></b><strong>horas</strong><small>para responder a tu presupuesto</small></li><li class="rv" style="--k:3"><b><i></i><span class="js-count" data-to="5">5</span></b><strong>camiones</strong><small>de flota propia para recoger y entregar</small></li></ul></section><section class="sec sec--paper cy" id="ciclo"><div class="wrap cy-grid">
+<div class="cy-vis rv"><div class="emb" aria-hidden="true"><img class="emb-h" src="/assets/img/emb-hojas-360.webp" srcset="/assets/img/emb-hojas-360.webp 360w, /assets/img/emb-hojas-720.webp 720w" sizes="(max-width: 900px) 260px, 420px" width="360" height="360" alt="" loading="lazy" decoding="async"><img class="emb-p" src="/assets/img/emb-palet-360.webp" srcset="/assets/img/emb-palet-360.webp 360w, /assets/img/emb-palet-720.webp 720w" sizes="(max-width: 900px) 260px, 420px" width="360" height="360" alt="" loading="lazy" decoding="async"></div><p class="cy-mid"><span>Un palet,</span> <b>muchas vidas</b></p></div>
+<div class="cy-t"><div class="shead"><div><p class="kicker">Economía circular</p><h2>El palet que tiras, <em>nosotros lo recuperamos</em></h2></div></div>
+<p class="lead">Con más de 30 años en el reciclaje de palets de madera, en Repalsur cerramos el círculo: menos madera nueva, menos residuos y menos coste para tu logística.</p>
+<ol class="cy-l js-steps"><li class="cy-s" style="--k:0"><span class="cy-n">1</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 6h13v10H1z"/><path d="M14 9h4l4 4v3h-8z"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg><b>Recogemos</b><p>Pasamos por tu empresa a por los palets usados, de forma rápida y programada.</p></li><li class="cy-s" style="--k:1"><span class="cy-n">2</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><b>Clasificamos</b><p>Cada palet se revisa: reutilización directa, reparación o reciclaje.</p></li><li class="cy-s" style="--k:2"><span class="cy-n">3</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0 5 5L22 9l-2-2-2.3-2.3L15 2.3l-2.3 2.3a4 4 0 0 0 2 1.7z"/><path d="m14 8-11 11 2 2L16 10"/></svg><b>Reparamos</b><p>Cambiamos tablas y tacos dañados para alargar su vida útil.</p></li><li class="cy-s" style="--k:3"><span class="cy-n">4</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-15.4 6.4L3 16"/><path d="M3 21v-5h5"/><path d="M3 12a9 9 0 0 1 15.4-6.4L21 8"/><path d="M21 3v5h-5"/></svg><b>Vuelven a rodar</b><p>Vuelven a tu almacén o al de otra empresa, con flota propia.</p></li></ol></div></div></section><section class="sec sec--flush" id="servicios"><div class="wrap"><div class="shead shead--split"><div><p class="kicker">Servicios</p><h2>Todo lo que le pasa <em>a un palet</em></h2></div><p class="lead">Del primer viaje al último: lo fabricamos, lo recogemos, lo reparamos y lo llevamos donde haga falta.</p></div></div>
+<ul class="svs"><li class="sv rv" style="--k:0"><a href="/servicios/#recuperacion"><img src="/assets/img/recup-3x4-720.webp" srcset="/assets/img/recup-3x4-420.webp 420w, /assets/img/recup-3x4-720.webp 720w" sizes="(max-width: 700px) 80vw, 25vw" width="720" height="960" alt="" loading="lazy" decoding="async"><span class="sv-t"><b>Recuperación</b><small>Recogida y recuperación de palets usados para darles una segunda vida.</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li><li class="sv rv" style="--k:1"><a href="/servicios/#compraventa"><img src="/assets/img/compra-3x4-720.webp" srcset="/assets/img/compra-3x4-420.webp 420w, /assets/img/compra-3x4-720.webp 720w" sizes="(max-width: 700px) 80vw, 25vw" width="720" height="960" alt="" loading="lazy" decoding="async"><span class="sv-t"><b>Compraventa</b><small>Compra y venta de palets usados de alta calidad, inspeccionados.</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li><li class="sv rv" style="--k:2"><a href="/servicios/#reparacion"><img src="/assets/img/repara-3x4-720.webp" srcset="/assets/img/repara-3x4-420.webp 420w, /assets/img/repara-3x4-720.webp 720w" sizes="(max-width: 700px) 80vw, 25vw" width="720" height="960" alt="" loading="lazy" decoding="async"><span class="sv-t"><b>Reparación</b><small>Reparamos y reacondicionamos palets dañados para alargar su vida útil.</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li><li class="sv rv" style="--k:3"><a href="/servicios/#distribucion"><img src="/assets/img/camion-3x4-720.webp" srcset="/assets/img/camion-3x4-420.webp 420w, /assets/img/camion-3x4-720.webp 720w" sizes="(max-width: 700px) 80vw, 25vw" width="720" height="960" alt="" loading="lazy" decoding="async"><span class="sv-t"><b>Distribución</b><small>Distribución y logística de palets adaptada a cada cliente.</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li></ul></section><section class="bleed bleed--l"><figure class="bleed-ph rv"><img src="/assets/img/nave-5x4-1400.webp" srcset="/assets/img/nave-5x4-560.webp 560w, /assets/img/nave-5x4-960.webp 960w, /assets/img/nave-5x4-1400.webp 1400w" sizes="(max-width: 900px) 100vw, 55vw" width="1400" height="1120" alt="Nave de Repalsur en el Polígono Industrial Santa Isabel, El Viso del Alcor" loading="lazy" decoding="async"></figure>
+<div class="bleed-t"><div class="shead"><div><p class="kicker">Quiénes somos</p><h2>Tres décadas <em>dando vida</em> al palet</h2></div></div>
+<p>Con más de 30 años de trayectoria, en Repalsur hemos dedicado toda una vida al reciclaje de palets de madera, a su fabricación, tratamiento y distribución para la logística de las empresas.</p>
+<p>Cada cliente necesita una atención personalizada y soluciones a medida. Por eso trabajamos con un enfoque cercano, rápido y siempre con la mirada puesta en la sostenibilidad.</p>
+<a class="lnk" href="/nosotros/">Conoce Repalsur <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></section><section class="band"><figure class="band-ph"><img src="/assets/img/camion2-16x7-1536.webp" srcset="/assets/img/camion2-16x7-640.webp 640w, /assets/img/camion2-16x7-1100.webp 1100w, /assets/img/camion2-16x7-1536.webp 1536w" sizes="100vw" width="1536" height="672" alt="" loading="lazy" decoding="async"></figure>
+<div class="wrap band-t rv"><p class="kicker">Distribución</p><p class="band-h">Flota propia. <em>Entregas en toda Andalucía</em> y zonas limítrofes.</p>
+<a class="btn btn--gold" href="/servicios/#distribucion">Cómo repartimos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></section><section class="sec"><div class="wrap"><div class="shead shead--split"><div><p class="kicker">Blog</p><h2>Guías para <em>comprar mejor</em></h2></div><p class="lead"><a class="lnk" href="/noticias/">Ver el blog <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p></div><ul class="nws" data-nws="4"><li class="nw rv" style="--k:0"><a href="/noticias/guia-compra-venta-palets-usados/"><img src="/assets/img/b1-3x2-768.webp" srcset="/assets/img/b1-3x2-400.webp 400w, /assets/img/b1-3x2-768.webp 768w" sizes="(max-width: 700px) 90vw, 25vw" width="768" height="512" alt="" loading="lazy" decoding="async"><span><small>Palets usados</small><b>Guía completa sobre la compra-venta de palets usados</b></span></a></li><li class="nw rv" style="--k:1"><a href="/noticias/fabricacion-palets-nuevos-a-medida/"><img src="/assets/img/b2-3x2-768.webp" srcset="/assets/img/b2-3x2-400.webp 400w, /assets/img/b2-3x2-768.webp 768w" sizes="(max-width: 700px) 90vw, 25vw" width="768" height="512" alt="" loading="lazy" decoding="async"><span><small>Palets nuevos</small><b>El proceso de fabricación de palets nuevos a medida</b></span></a></li><li class="nw rv" style="--k:2"><a href="/noticias/reparacion-de-palets-ahorro-y-sostenibilidad/"><img src="/assets/img/b3-3x2-768.webp" srcset="/assets/img/b3-3x2-400.webp 400w, /assets/img/b3-3x2-768.webp 768w" sizes="(max-width: 700px) 90vw, 25vw" width="768" height="512" alt="" loading="lazy" decoding="async"><span><small>Reparación</small><b>La importancia de la reparación de palets en la cadena logística</b></span></a></li><li class="nw rv" style="--k:3"><a href="/noticias/beneficios-palets-de-calidad/"><img src="/assets/img/b4-3x2-768.webp" srcset="/assets/img/b4-3x2-400.webp 400w, /assets/img/b4-3x2-768.webp 768w" sizes="(max-width: 700px) 90vw, 25vw" width="768" height="512" alt="" loading="lazy" decoding="async"><span><small>Calidad</small><b>Los beneficios de utilizar palets de calidad en tu empresa</b></span></a></li></ul></div></section><section class="sec sec--warm" id="contacto"><div class="wrap-n contact">
+<div class="shead shead--c"><div><p class="kicker">Presupuesto sin compromiso</p><h2>¿Cuántos palets <em>necesitas</em>?</h2></div><p class="lead">Llámanos, escríbenos por WhatsApp o déjanos tus datos: te respondemos en menos de 24 horas.</p></div>
+<ul class="cinfo">
+<li><a href="tel:+34674708456"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span><small>Móvil</small>674 708 456</span></a></li>
+<li><a href="https://wa.me/34674708456" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zM20.5 3.5A11.8 11.8 0 0 0 1.9 17.7L.2 23.8l6.3-1.6A11.8 11.8 0 0 0 20.5 3.5z"/></svg><span><small>WhatsApp</small>674 708 456</span></a></li>
+<li><a href="tel:+34955946460"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span><small>Oficina</small>955 946 460</span></a></li>
+<li><a href="mailto:info@repalsur.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><span><small>Correo</small>info@repalsur.com</span></a></li>
+</ul>
+<form class="bform js-contact rv" data-source="home" novalidate id="presupuesto">
+<p class="bform-h">Pide tu <em>presupuesto</em></p><p class="bform-lead">Con tu nombre y un teléfono basta. Te llamamos y lo concretamos.</p>
+<fieldset class="seg"><legend>¿Qué necesitas?</legend><label><input type="radio" name="necesidad" value="Palets nuevos" checked><span>Palets nuevos</span></label><label><input type="radio" name="necesidad" value="Palets usados"><span>Palets usados</span></label><label><input type="radio" name="necesidad" value="Reparar mis palets"><span>Reparar mis palets</span></label><label><input type="radio" name="necesidad" value="Que recojáis mis palets"><span>Que recojáis mis palets</span></label></fieldset>
+<div class="fgrid">
+<label class="f"><span>Nombre o empresa</span><input name="name" autocomplete="organization" required></label>
+<label class="f"><span>Teléfono</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required></label>
+<label class="f"><span>Cantidad aproximada <i>(opcional)</i></span><input name="cantidad" inputmode="numeric" placeholder="Ej.: 50 palets"></label>
+<label class="f"><span>Medida <i>(opcional)</i></span><select name="medida"><option value="">Elige una opción</option><option value="1200 × 800 (europeo)">1200 × 800 (europeo)</option><option value="1200 × 1000">1200 × 1000</option><option value="Otra medida / a medida">Otra medida / a medida</option><option value="No lo sé, asesoradme">No lo sé, asesoradme</option></select></label>
+<label class="f f--full"><span>Correo <i>(opcional)</i></span><input name="email" type="email" autocomplete="email"></label>
+<label class="f f--full"><span>Cuéntanos algo más <i>(opcional)</i></span><textarea name="message" rows="3" placeholder="Carga, uso (almacén, exportación, alimentación…), plazo, localidad de entrega…"></textarea></label>
+</div>
+<input class="hp" name="_hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label class="chk"><input type="checkbox" name="privacidad" value="1" required><span>Acepto la <a href="/politica-de-privacidad/" target="_blank">política de privacidad</a>. Usaremos tus datos solo para responder a tu solicitud.</span></label>
+<div class="cf-mount"></div>
+<button class="btn btn--gold btn--block btn--lg" type="submit">Enviar solicitud <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form></div></section>
+</main>
+<footer class="ftr"><div class="ftr-deco" aria-hidden="true"><svg class="leaves leaves--ftr" viewBox="0 0 100 100" aria-hidden="true"><g class="lv"><g transform="rotate(0 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(90 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(180 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g><g transform="rotate(270 50 50)"><path class="lf" d="M50 4C36 9 31 22 37 33c13-3 19-16 13-29z"/></g></g><g class="pl"><rect x="33" y="38" width="34" height="5" rx="1"/><rect x="33" y="47" width="34" height="5" rx="1"/><rect x="33" y="56" width="34" height="5" rx="1"/><rect x="34" y="61" width="6" height="5"/><rect x="47" y="61" width="6" height="5"/><rect x="60" y="61" width="6" height="5"/></g></svg></div>
+<div class="wrap ftr-grid">
+<div class="ftr-brand"><a class="logo" href="/"><img src="/assets/img/logo-w-h-56.webp" srcset="/assets/img/logo-w-h-56.webp 152w, /assets/img/logo-w-h-112.webp 304w" sizes="152px" width="152" height="56" alt="Repalsur · Reparación de palets del sur"></a><p>Palets nuevos a medida y palets de segunda mano revisados. Recogida, reparación y reparto con flota propia desde El Viso del Alcor (Sevilla) desde hace más de 30 años.</p>
+<p class="ftr-soc"><a href="https://www.instagram.com/repalsur" target="_blank" rel="noopener" aria-label="Instagram de Repalsur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a><a href="https://www.facebook.com/profile.php?id=61586434562846" target="_blank" rel="noopener" aria-label="Facebook de Repalsur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-3a4 4 0 0 0-4 4v3H5v4h3v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a></p></div>
+<div><p class="ftr-h">Palets</p><ul><li><a href="/palets-nuevos/">Palets nuevos</a></li><li><a href="/palets-usados/">Palets usados</a></li><li><a href="/servicios/#reparacion">Reparación de palets</a></li><li><a href="/servicios/#recuperacion">Recogida de palets</a></li><li><a href="/servicios/#distribucion">Distribución</a></li></ul></div>
+<div><p class="ftr-h">Repalsur</p><ul><li><a href="/nosotros/">Nosotros</a></li><li><a href="/noticias/">Blog</a></li><li><a href="/contacto/">Contacto</a></li></ul></div>
+<div><p class="ftr-h">Contacto</p><ul class="ftr-c"><li><a href="tel:+34674708456"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> 674 708 456</a></li><li><a href="tel:+34955946460"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> 955 946 460</a></li>
+<li><a href="mailto:info@repalsur.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg> info@repalsur.com</a></li><li><a href="https://maps.app.goo.gl/41kAxWgpmJ8QtrSq5" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> Polígono Industrial Santa Isabel, C. Pintores, 11, 41520 El Viso del Alcor (Sevilla)</a></li></ul></div>
+</div>
+<div class="wrap ftr-bot"><p>© 2026 REPALSUR</p>
+<p class="ftr-legal"><a href="/aviso-legal/">Aviso legal</a><a href="/politica-de-privacidad/">Privacidad</a><a href="/politica-de-cookies/">Cookies</a></p></div>
+</footer>
+<div class="mbar"><a href="tel:+34674708456"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> Llamar</a><a href="https://wa.me/34674708456" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zM20.5 3.5A11.8 11.8 0 0 0 1.9 17.7L.2 23.8l6.3-1.6A11.8 11.8 0 0 0 20.5 3.5z"/></svg> WhatsApp</a><a class="mbar-c" href="/contacto/#presupuesto">Presupuesto</a></div>
+<script src="/assets/site-config.js" defer></script>
+<script src="/assets/main.js?v=202611061058" defer></script>
 </body>
-
 </html>
